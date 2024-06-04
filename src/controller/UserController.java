@@ -11,4 +11,10 @@ public class UserController {
     public List<UserDto> getAllUsers(){
         return userService.getAllUsers();
     }
+    public void addNewUser(UserDto userDto){
+        userService.addNewUser(userDto);
+    }
+    public void deleteUser(Integer id){
+        userService.deleteUser(id);
+    }
 }

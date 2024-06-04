@@ -1,10 +1,12 @@
 package model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.*;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 public class User {
     private Integer id;
     private String name;
